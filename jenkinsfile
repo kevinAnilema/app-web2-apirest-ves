@@ -9,7 +9,7 @@ node{
         bat 'npm run build'
     }
     stage('Copiar o mover al servidor'){
-        bat 'xcopy C:\\ProgramData\Jenkins\\.jenkins\\workspace\\Pipeline angular\\dsit c:\\servidor /E/I/Y'
+        bat 'xcopy C:\\ProgramData\Jenkins\\.jenkins\\workspace\\Pipeline_angular\\dsit c:\\servidor /E/I/Y'
     }
 
     /*bat por que estamos en windows sh el comando para linux y el que se encuentra en la documentacion*/
